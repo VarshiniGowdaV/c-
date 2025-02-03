@@ -5,7 +5,6 @@ using namespace std;
 
 int main()
 {
-    // car c1;
     car car1(10,20);
     car1.setlenght(10);
     car1.setwidht(20);

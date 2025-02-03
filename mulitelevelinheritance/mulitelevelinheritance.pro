@@ -4,4 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        bankaccount.cpp \
+        main.cpp \
+        premiumsavingsaccount.cpp \
+        savingsaccount.cpp
+
+HEADERS += \
+    bankaccount.h \
+    premiumsavingsaccount.h \
+    savingsaccount.h
