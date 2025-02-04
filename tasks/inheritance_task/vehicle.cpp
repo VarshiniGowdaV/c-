@@ -12,7 +12,8 @@ Vehicle::~Vehicle() {
 }
 
 void Vehicle::start() {
-   // cout << "Vehicle is starting." << endl;
+    cout<<"speed:"<<speed<<endl;
+    cout<<"color:"<<color<<endl;
 }
 
 void Vehicle::stop() {

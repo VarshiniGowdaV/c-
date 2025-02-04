@@ -12,5 +12,5 @@ Truck::~Truck()
       std::cout<<"truck distructor"<<std::endl;
 }
 void Truck::loadCargo() {
-   // cout << "Loading cargo in the truck." << endl;
+    cout<<"capacity:"<<cargo_capacity<<endl;
 }

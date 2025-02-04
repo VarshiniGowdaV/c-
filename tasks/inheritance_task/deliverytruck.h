@@ -5,11 +5,11 @@
 
 class DeliveryTruck : public Car, public Truck {
 public:
-    string delivery_area;
+    string m_delivery_area;
 
     DeliveryTruck(int speed, string color, int number_of_doors,int cargo_capacity, string delivery_area);
-
-    void scheduleDelivery();
+    ~DeliveryTruck();
+   void scheduleDelivery();
 };
 
 #endif

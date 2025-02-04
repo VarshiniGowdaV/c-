@@ -10,9 +10,9 @@ Car::Car(int speed, string color, int number_of_doors)
 }
 Car::~Car()
 {
-    std::cout<<"car disstructor"<<std::endl;
+    std::cout<<"car distructor"<<std::endl;
 }
 void Car::playMusic()
 {
-    //cout << "Playing music in the car." << endl;
+    std::cout<<"door:"<<number_of_doors<<endl;
 }

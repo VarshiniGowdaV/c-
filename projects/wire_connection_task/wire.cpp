@@ -8,7 +8,7 @@ wire::wire(int length1,float thickness1,string brand1, string color1,float price
     color=color1;
     price=price1;
 }
-wire::wire()
+wire::~wire()
 {
 
 }
